@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "UserPages" do
+describe "User Pages" do
 
   subject { page }
 
@@ -42,6 +42,7 @@ describe "UserPages" do
       it "should Create a user" do
         expect { click_button submit }.to change(User, :count).by(1)
       end
+      # it { should have_link('Sign out') }
     end
   end
 end
