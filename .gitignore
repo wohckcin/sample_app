@@ -16,3 +16,15 @@
 
 Guardfile
 .DS_Store
+
+/.idea/*
+.idea/.generators
+.idea/.name
+.idea/.rakeTasks
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/sample_app.iml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml
